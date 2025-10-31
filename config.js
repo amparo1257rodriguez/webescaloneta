@@ -1,5 +1,5 @@
 // NUMERO DE LINEA
-const NUMERO_DE_LINEA = '5491176117694';
+const NUMERO_DE_LINEA = '5491176117486';
 
 // Mensaje predeterminado
 const MENSAJE_WA = encodeURIComponent('¡Hola! Quiero crear un USU4RIO. Mi nombre es:');
@@ -17,4 +17,5 @@ window.addEventListener('DOMContentLoaded', function() {
         btn.setAttribute('target', '_blank');
     }
 });
+
 
