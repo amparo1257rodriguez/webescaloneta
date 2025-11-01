@@ -8,7 +8,7 @@ const PIXEL_ID = '1817895628956159';
 const EVENTO_CLICK = 'ClickEscaloneta';
 
 // Mensaje predeterminado
-const MENSAJE_WA = encodeURIComponent('¡Hola! Quiero crear un USU4RIO. Mi nombre es:');
+const MENSAJE_WA = encodeURIComponent('¡Hola! Quiero crear un USU4RIO. Mi nombre es: ');
 
 // Función para obtener el enlace de WhatsApp
 function getWhatsappLink() {
@@ -54,5 +54,6 @@ window.addEventListener('DOMContentLoaded', function() {
         });
     }
 });
+
 
 
