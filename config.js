@@ -4,6 +4,9 @@ const NUMERO_DE_LINEA = '5491176117486';
 // ID DEL PIXEL DE META
 const PIXEL_ID = '1817895628956159';
 
+// NOMBRE DEL EVENTO CLICK
+const EVENTO_CLICK = 'ClickEscaloneta';
+
 // Mensaje predeterminado
 const MENSAJE_WA = encodeURIComponent('¡Hola! Quiero crear un USU4RIO. Mi nombre es:');
 
@@ -39,8 +42,8 @@ window.addEventListener('DOMContentLoaded', function() {
         // Agregar evento de Meta Pixel para tracking de clics
         btn.addEventListener('click', function() {
             // Evento personalizado de Meta Pixel
-            if (typeof fbq !== 'undefined') {
-                fbq('trackCustom', 'ClickEscaloneta', {
+            if (typeof fbq !== 'undefined' && EVENTO_CLICK) {
+                fbq('trackCustom', EVENTO_CLICK, {
                     website: 'webescaloneta',
                     platform: 'WhatsApp',
                     page: document.title,
